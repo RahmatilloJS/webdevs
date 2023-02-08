@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.big-text {
+  font-size: 26px;
+  font-weight: 500;
+}
+.box-tugash {
+  margin: 0 auto;
+  width: 1200px;
+  background: #FAFAFA;
+}
+.top-tugash {
+  margin: 0 auto;
+  width: 1200px;
+  background: #FAFAFA;
+}
+.p1 {
+  font-size: 26px;
+  font-weight: 500;
+}
+.sp1 {
+  border: 1px solid #000000;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tugash-imgs {
+  position: relative;
+}
+.p2 {
+  color: #FFFFFF;
+  top: 100px;
+  left: 420px;
+  position: absolute;
+  font-size: 26px;
+  font-weight: 500;
+}
+.p-right-left {
+  font-weight: 500;
+  color: #838383;
+}
+.center-tugash {
+  display: flex;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+.center-tugash .right-tugash {
+  width: 600px;
+  height: 237px;
+}
+.center-tugash .right-tugash .inp-tugash-btn {
+  width: 480px;
+  height: 50px;
+}
+.center-tugash .right-tugash p {
+  font-weight: 500;
+  color: #838383;
+}
+.center-tugash .right-tugash input {
+  margin-top: 13px;
+  margin-bottom: 12px;
+  border: #E4E4F9;
+  outline: blue;
+  background: #E4E4F9;
+  width: 480px;
+  height: 50px;
+}
+.center-tugash .right-tugash button {
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  background-color: #0099FF;
+  margin-top: 30px;
+  width: 480px;
+  height: 50px;
+}
+.right-left {
+  width: 600px;
+  height: 237px;
+}
+.left-tugash p {
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #838383;
+}
+.left-tugash textarea {
+  border: none;
+  outline: none;
+  background: #E4E4F9;
+  width: 600px;
+  height: 237px;
+}
+.box1-tugash {
+  margin: 0 auto;
+  width: 1200px;
+}
+.box1-tugash .chziq {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+}
+.box2-tg {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.right1-tugash h1 {
+  margin-bottom: 10px;
+}
+.right1-tugash .box2-h4 {
+  margin-bottom: 10px;
+}
+.right1-tugash p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #838383;
+}
+.center1-tugash .center1-p {
+  text-align: center;
+  margin-top: 175px;
+}
+.left1-tugash {
+  position: relative;
+  width: 350px;
+}
+.left1-tugash ul {
+  margin-top: 90px;
+  margin-left: 70px;
+}
+.left1-tugash i {
+  margin: 10px 17px 10px 0px;
+  font-size: 20px;
+}
