@@ -2,129 +2,276 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
 }
-.big-text {
-  font-size: 26px;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-new .three-p .p1 {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-style: normal;
   font-weight: 500;
+  font-size: 22px;
+  width: 100%;
 }
-.box-tugash {
-  margin: 0 auto;
-  width: 1200px;
-  background: #FAFAFA;
+
+.contact-new .three-p .p2 {
+  border: 1px solid black;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 100%;
 }
-.top-tugash {
-  margin: 0 auto;
-  width: 1200px;
-  background: #FAFAFA;
-}
-.p1 {
-  font-size: 26px;
-  font-weight: 500;
-}
-.sp1 {
-  border: 1px solid #000000;
-  width: 1200px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.tugash-imgs {
+
+.contact-new .img-text {
   position: relative;
-}
-.p2 {
-  color: #FFFFFF;
-  top: 100px;
-  left: 420px;
-  position: absolute;
-  font-size: 26px;
-  font-weight: 500;
-}
-.p-right-left {
-  font-weight: 500;
-  color: #838383;
-}
-.center-tugash {
   display: flex;
-  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-new .img-text img {
+  position: absolute;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.contact-new .img-text p {
+  position: absolute;
+  width: 50%;
+  font-weight: 500;
+  top: 100px;
+  left: 25%;
+  font-size: 26px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.contact-about {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 300px;
+  padding: 20px;
   padding-bottom: 60px;
 }
-.center-tugash .right-tugash {
-  width: 600px;
-  height: 237px;
+
+.contact-about .right-tugash {
+  width: 500px;
+  height: 500px;
 }
-.center-tugash .right-tugash .inp-tugash-btn {
-  width: 480px;
-  height: 50px;
-}
-.center-tugash .right-tugash p {
-  font-weight: 500;
+
+.contact-about .right-tugash p {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.8);
   color: #838383;
 }
-.center-tugash .right-tugash input {
+
+.contact-about .right-tugash input {
+  padding: 10px;
   margin-top: 13px;
   margin-bottom: 12px;
   border: #E4E4F9;
+  font-size: 20px;
   outline: blue;
   background: #E4E4F9;
-  width: 480px;
-  height: 50px;
+  width: 500px;
+  height: 60px;
 }
-.center-tugash .right-tugash button {
+
+.contact-about .right-tugash button {
   border: none;
   outline: none;
   color: #FFFFFF;
   background-color: #0099FF;
   margin-top: 30px;
-  width: 480px;
-  height: 50px;
+  width: 500px;
+  height: 60px;
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: #FFFFFF;
 }
-.right-left {
+
+.contact-about .right-left {
   width: 600px;
   height: 237px;
 }
-.left-tugash p {
+
+
+
+
+
+
+
+.contact-about .left-tugash {
+  flex-wrap: wrap;
+  width: 600px;
+  height: 400px;
+  margin-left: 120px;
+}
+
+/* iPad */
+@media only screen and (max-width: 850px) {
+  .contact-about .left-tugash {
+    position: absolute;
+    top: 600px;
+    width: 790px;
+    margin-left: 0px;
+    margin-top: 0;
+  }
+
+  .contact-about .right-tugash button {
+    position: absolute;
+    top: 910px;
+    z-index: 1;
+  }
+  .contact-new .img-text .text{
+    display: none;
+  }
+  .contact-about .left-tugash .textarea {
+    width: 790px;
+  }
+}
+/* iPad */
+
+
+/* iphone */
+@media (max-width: 430px) {
+.contact-new .img-text img {
+  padding: 0;
+}
+  .contact-about {
+    margin-top: 70px;
+  }
+
+  .contact-about .left-tugash {
+    top: 370px;
+  }
+
+  .contact-about .right-tugash input {
+    width: 345px;
+    height: 50px;
+  }
+
+  .contact-about .right-tugash .inp-p1 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .contact-about p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 0px;
+  }
+
+  .contact-about .left-tugash .textarea {
+    width: 345px;
+    height: 260px;
+  }
+.contact-new .img-text .text{
+  display: none;
+}
+  .contact-about .right-tugash button {
+    width: 345px;
+    height: 50px;
+    position: absolute;
+    top: 670px;
+  }
+  
+}
+/* iphone */
+
+
+.contact-about .left-tugash p {
   margin-bottom: 12px;
   font-weight: 500;
-  color: #838383;
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.8);
 }
-.left-tugash textarea {
-  border: none;
+
+.contact-about .left-tugash textarea {
   outline: none;
+  border: none;
+  font-size: 20px;
   background: #E4E4F9;
   width: 600px;
-  height: 237px;
+  height: 275px;
+  padding: 10px;
 }
+
+
+
 .box1-tugash {
   margin: 0 auto;
   width: 1200px;
 }
-.box1-tugash .chziq {
+.box1-tugash .chziq{
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid #000000;
 }
+
 .box2-tg {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
+
+
 .right1-tugash h1 {
   margin-bottom: 10px;
+
 }
+
 .right1-tugash .box2-h4 {
   margin-bottom: 10px;
 }
+
 .right1-tugash p {
   font-size: 18px;
   font-weight: 500;
   color: #838383;
 }
+
+
 .center1-tugash .center1-p {
   text-align: center;
   margin-top: 175px;
 }
+
 .left1-tugash {
+  
   position: relative;
   width: 350px;
 }
@@ -132,7 +279,8 @@
   margin-top: 90px;
   margin-left: 70px;
 }
-.left1-tugash i {
+
+.left1-tugash i{
   margin: 10px 17px 10px 0px;
   font-size: 20px;
 }
