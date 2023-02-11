@@ -72,7 +72,7 @@
 .header{
   margin-top: 200px;
 }
-.container{
+.container-nav{
   width: 100%;
   max-width: 1440px;
   margin-inline: auto;
@@ -609,12 +609,17 @@ opacity: 0.5;
   align-items: center;
   justify-content: center;
 }
-/* our project end */
+/* <---------------------- Our project end ----------------------->*/
 
 
 
 
 
+
+
+
+
+/*< ----------------------- Contact start -------------------> */
 .contact-new .three-p .p1 {
   padding-right: 20px;
   padding-left: 20px;
@@ -626,23 +631,26 @@ opacity: 0.5;
 
 .contact-new .three-p .p2 {
   border: 1px solid black;
+  width: 1200px;
   margin-top: 1%;
-  margin-bottom: 1%;
+  /* margin-bottom: 1%; */
   width: 100%;
 }
 
 .contact-new .img-text {
   position: relative;
+  /* border: 1px solid red; */
   display: flex;
   text-align: center;
 }
 
 .contact-new .img-text img {
+  /* border: 1px solid red; */
   position: absolute;
-  left: -775px;
+  left: -810px;
+  width: 1200px;
   right: 0;
   top: -95px;
-  width: 1200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -658,30 +666,27 @@ opacity: 0.5;
   z-index: 1;
   color: rgb(255, 255, 255);
 }
-
-
-
-
-
-
-
-
 .Contact{
-  margin-top: 100px;
+  /* border: 1px solid red; */
+  margin-top: 400px;
 }
-
+.container{
+  /* border: 1px solid red; */
+  width: 1200px;
+}
 .contact-about {
-  width: 100%;  
+  /* border: 1px solid red; */
   display: flex;
-  flex-wrap: wrap;
+  width: 1200px;  
+  height: 350px;
   margin-top: 300px;
-  padding: 20px;
   padding-bottom: 60px;
 }
 
 .contact-about .right-tugash {
+  border: 1px solid red;
   width: 500px;
-  height: 500px;
+  height: 350px;
 }
 
 .contact-about .right-tugash p {
@@ -724,23 +729,17 @@ opacity: 0.5;
   cursor: pointer;
   color: #FFFFFF;
 }
-
 .contact-about .right-left {
   width: 600px;
   height: 237px;
 }
-
-
-
-
-
-
-
 .contact-about .left-tugash {
+  /* border: 1px solid red; */
+
   flex-wrap: wrap;
   width: 600px;
   height: 400px;
-  margin-left: 120px;
+  margin-left: 80px;
 } 
 
 /* iPad */
@@ -814,8 +813,6 @@ opacity: 0.5;
   
 }
 /* iphone */
-
-
 .contact-about .left-tugash p {
   margin-bottom: 12px;
   font-weight: 500;
@@ -829,57 +826,48 @@ opacity: 0.5;
 }
 
 .contact-about .left-tugash textarea {
+  /* border: 1px solid red; */
   outline: none;
   border: none;
   font-size: 20px;
   background: #E4E4F9;
   width: 600px;
-  height: 275px;
+  height: 295px;
   padding: 10px;
+  margin-top: 15px;
 }
-
-
 
 .box1-tugash {
   margin: 0 auto;
-  width: 1200px;
 }
 .box1-tugash .chziq{
+  width: 1200px;
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid #000000;
 }
-
 .box2-tg {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
-
-
 .right1-tugash h1 {
   margin-bottom: 10px;
 
 }
-
 .right1-tugash .box2-h4 {
   margin-bottom: 10px;
 }
-
 .right1-tugash p {
   font-size: 18px;
   font-weight: 500;
   color: #838383;
 }
-
-
 .center1-tugash .center1-p {
   text-align: center;
   margin-top: 175px;
 }
-
 .left1-tugash {
-  
   position: relative;
   width: 350px;
 }
@@ -887,19 +875,19 @@ opacity: 0.5;
   margin-top: 90px;
   margin-left: 70px;
 }
-
 .left1-tugash i{
   margin: 10px 17px 10px 0px;
   font-size: 20px;
 }
+/*< ----------------------- Contact end -------------------> */
 
 
 
 
 
 
-
-.box2{
+/* <!-- --------------------desktop start  -------------------> */
+/* .box2{
   margin: 0 auto;
   max-width: 1200px;
   display: flex;
@@ -939,8 +927,6 @@ opacity: 0.5;
   position: relative;
   flex-wrap: wrap;
   left: -10px;
-  /* padding: -1000px; */
-  /* border: 2px solid red; */
 } 
 .text3{
   margin-top: 20px;
@@ -962,7 +948,6 @@ opacity: 0.5;
 }
 #main textarea{
   resize: none;
-  /* width: 200px; */
 }
 #main label{
   font-size: 15px;
@@ -989,7 +974,6 @@ hr{
 }
 
 
-/* <!-- --------------------desktop start  -------------------> */
 .box{
   margin-top: 100px;
 }
@@ -1095,7 +1079,6 @@ hr{
       margin-right: 210px;
       margin-top: 200px;
      margin-left: -1000px;
-     /* margin: 0 auto; */
   }
 }
 @media (max-width:400px){
@@ -1108,8 +1091,6 @@ hr{
   .form  #btn{
       z-index: 2;
       margin-top: 300px;
-     /* margin: 0 auto; */
-
   }
 }
 @media (max-width:900px){
@@ -1129,24 +1110,18 @@ hr{
       position: relative;
       top: 180px;
       left: -350px;
-      /* display: none; */
-
   }
 }
 @media (max-width:900px){
   .form{
       position: relative;
       left: 200px;
-      /* display: none; */
-
   }
 }
 @media (max-width:900px){
   textarea{
       position: relative;
       left: 200px;
-      /* display: none; */
-
   }
 }
 @media (max-width:900px){
@@ -1156,8 +1131,6 @@ hr{
       width: 200px;
       position: relative;
       left: -210px;
-      /* display: none; */
-
   }
 }
 @media (max-width:400px){
@@ -1166,28 +1139,17 @@ hr{
       width: 400px; 
       position: relative;
       left: -7px;
-      /* left: -200px; */
-      /* display: none; */
-
   }
 }
 @media (max-width:400px){
  .img .carousel-item{
-  /* width: 200px; */
      position: relative;
-     /* padding: 0 500px 0  0; */
       left: 50px;
-      /* width: 200px;  */
-      /* left: -200px; */
-      /* display: none; */
-
   }
 }
 @media (max-width:400px){
  .img .carousel-item p{
-  
      position: relative;
-  
       left: -40px;
    
   }
@@ -1195,14 +1157,8 @@ hr{
 
 @media (max-width:400px){
  .img .carousel-inner{
-  /* width: 200px; */
      position: relative;
-  
       left: -25px;
-      /* width: 200px;  */
-      /* left: -200px; */
-      /* display: none; */
-
   }
 }
 @media (max-width:900px){
@@ -1218,9 +1174,7 @@ hr{
   left: 200px;
 }
 #carouselExample{
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
   position: relative;
-  /* left: 500px; */
   width: 700px;
 }
 .carousel-control-prev-icon{
@@ -1244,7 +1198,7 @@ hr{
   height: 100px;
   width: 100px;
 }
-
+ */
 
 
 /* <!-- --------------------desktop end  -------------------> */
